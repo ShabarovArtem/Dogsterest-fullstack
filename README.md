@@ -1,12 +1,13 @@
-# Server
-
-## Установка
+# Установка
 
 ````bash
-  $ git clone https://github.com/ShabarovArtem/Dogsterest
-  $ cd Dogsterest
+  $ git clone https://github.com/ShabarovArtem/Dogsterest-fullstack
+  $ cd Dogsterest-fullstack
 ````
-
+## Server
+````bash
+  $ cd server
+````
 ## Запуск
 
 #### local
@@ -67,5 +68,12 @@ URL `http://localhost:8080/dogPost/fa4bd070-f043-4d84-87b9-cbc88c25f079/like`
 URL `http://localhost:8080/dogPost/fa4bd070-f043-4d84-87b9-cbc88c25f079/unlike`
 
 
-
-
+## Client
+````bash
+  $ cd client
+````
+#### local
+````bash
+  $ npm install
+  $ npm start
+````
